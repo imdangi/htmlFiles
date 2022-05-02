@@ -1,10 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+:root{
+    --primaryColor:color:rgb(45, 31, 244);
+}
+/* ----- */
+
+/* .logo img{
+    width: 40px;
+    height: 40px;
+} */
+.navbar{
+    background-color: white;
+}  
+
+
+  .top-nav {
+    margin: 1em;
+    text-align: center;
+    float: left;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+
+  .top-nav a{
+    padding: 0.5em;
+    cursor: pointer;
+  }
+  
+
+  
+
+  .top-nav a:hover {
+      border: 1px solid black;
+    background-color: rgb(246, 215, 215);
+    color: black;
+    border-radius: 10px;
+  }
+  
+  .top-nav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+/* ------------------------------- */
 
 
 body{
-    background-color: aliceblue;
+    background:rgb(238, 238, 238);
+    margin:0;
+    font-family: 'Poppins';
 }
+
+
+.homeBold{
+    font-weight: bold;
+}
+
+.nav-contactUs{
+    color: black;
+}
+
+
+
+
+.container{
+    display: flex;
+    place-content: space-between;
+    margin: 0;
+}
+
+.mobile-menu{
+    cursor:pointer;
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+section{
+    padding:5em 2em;
+}
+.left-col{
+    text-align: center;
+    margin-top: .2em;
+}
+
+.subheading{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:grey;
+    letter-spacing: .3em;
+}
+
+.website-heading{
+    font-size: 2.5em;
+    line-height: 1.3em;
+    margin-top:.2em;
+}
+
+
+.title-illustration-image{
+    padding: 0.1em;
+    margin: .2em;
+    width:40%;
+    height: inherit;
+
+
+}
+ 
 img{
-    width: 500 px;
-    height: 500px;
+    margin-right: .5em;
+
 }
+.main-body h1{
+    text-align: center;
+    font-family: Poppins;
+}
+
+
+
+
+.main-body{
+    /* background:rgb(250, 127, 227); */
+    margin: 1em;
+
+}
+
+.photo-image{
+    margin: 0;
+    padding: 0;
+    margin: 1em;
+    width:550px;
+    /* max-width: 800px; */
+    border: 3px solid black;
+    border-radius: 1em;
+
+}
+.body-list{
+    background:rgb(255, 255, 255);
+    text-align: center;
+    padding: 2em 1em;
+    margin:0 auto 5em auto;
+    border-radius: 1.5em;
+}
+
+.footer-segment{
+    background-color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.address-map{
+    margin: 1em;
+    padding: 0.5em;
+    width: 450px;
+    height: 300px;
+}
+
+.like-btn{
+    margin: 0;
+    padding:0;
+    width: 50px;
+    height: 50px;
+}
+
+.dislike-btn{
+    margin: 0;
+    padding:0;
+    width: 50px;
+    height: 50px;
+    transform: rotate(180deg);
+
+}
+
+.like-btn:hover{
+    background-color: green;
+    cursor:pointer;
+}
+
+.dislike-btn:hover{
+    background-color: red;
+    cursor:pointer;
+}
+
+blockquote{
+    text-align: center;
+    font-weight: bold;
+}
+cite{
+    text-align: center;
+    font-style: italic;
+}
+dd{
+    padding-top:10px ;
+    text-align: justify;
+    text-transform: uppercase;
+    color: darkblue;
+
+}
+
+/* Screen Sizes 500px and Up */
+@media (min-width: 500px) {
+body{
+    height: 100vh;
+}
+  }
+  
+  /* Screen Sizes 700px and Up
+  @media (min-width: 700px) {
+    body {
+      padding: 1rem 3rem;
+    }
+  } */
